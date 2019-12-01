@@ -384,7 +384,7 @@ footer ul li {
 }
 
 #log1 {
-    background-image: url(/resources/logo1.png);
+    background-image: url(logo1.png);
     background-size: cover;
 }
 
@@ -393,7 +393,7 @@ footer ul li {
 }
 
 #log2 {
-    background-image: url(/resources/logo2.png);
+    background-image: url(logo2.png);
     background-size: cover;
 }
 
@@ -402,7 +402,7 @@ footer ul li {
 }
 
 #log3 {
-    background-image: url(/resources/logo3.png);
+    background-image: url(logo3.png);
     background-size: cover;
 }
 
@@ -411,7 +411,7 @@ footer ul li {
 }
 
 #log4 {
-    background-image: url(/resources/logo4.png);
+    background-image: url(logo4.png);
     background-size: cover;
 }
 
