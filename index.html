@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>CROWDME</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="resources/style.css">
+    <script>
+    function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+    </script>
+</head>
+<body>
+      <nav>
+          <img id='logo' src='resources/logo.png'/>
+      <ul>
+          <li>home</li>
+          <li>how it works</li>
+          <li>discover a project</li>
+          <li>blog</li>
+          <li>find out more</li>
+          </ul>
+         <button id='login' >login</button>
+      </nav>
+    <header>
+        <div class='content'>
+    <h2>Intellectual Property has the Shelf Life</h2>
+    <h3>of a Banana.</h3>
+        <button>Become a Member</button>
+            </div>
+    </header>
+    <main>
+        <div class='presentation'>
+            <img src="resources/contimg1.png">
+            <h3>Our work is the presentation  of our capabilities. </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+        <section class='tabs'>
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Москва')">1. Simple</button>
+                <button class="tablinks" onclick="openCity(event, 'Берлин')">2. Transparent</button>
+                <button class="tablinks" onclick="openCity(event, 'Пекин')">3. Collaborative</button>
+                </div>
+
+                <div id="Москва" class="tabcontent">
+                <img src="resources/glasses.png">   
+                <h3>Browse projects, like booking a hotel online !</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <div id="Берлин" class="tabcontent">
+                <img src="resources/window.png">
+                <h3>We digitize the work process, making working in the cloud transparent!.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+                </div>
+
+                <div id="Пекин" class="tabcontent">
+                <img src="resources/collaboration.jpeg">
+                <h3>Collaboration is a Key to Success!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+        </section>
+        <section class='find'>
+            <div class='blue'>
+                <img src="resources/chair.png">
+                <h3>Find Properties</h3>
+                <p>Sign up to browse the portfolio.
+Your journey to becoming a real estate baron starts here.</p>
+                <button>become a member</button>
+            </div>
+            <div class='green'>
+                <img src="resources/wallet.png">
+                <h3>Find Buyers</h3>
+                <p>Sign up to browse the portfolio.
+Your journey to becoming a real estate baron starts here.</p>
+                <button>submit your project</button>
+            </div>
+        </section>
+        <section class='ending'>
+            <h3>Be Part of a Growing International Community</h3>
+            <p>One of the challenges in networking is everybody thinks it's making cold calls to strangers. Actually, it's the people who already have strong trust relationships with you</p>
+            <div class='words'>
+                <div class='quote'>
+                <h4>one of the best</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod taempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <img src='resources/david1.png'>
+                <p class='name'>David Beckham</p>
+            </div>
+            <div class='words'>
+                <div class='quote'>
+                <h4>excellent service</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod taempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                <img src="resources/david2.png">
+                <p class='name'>Valeriy Pronin</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li id='log1'></li>
+            <li id='log2'></li>
+            <li id='log3'></li>
+            <li id='log4'></li>
+        </ul>
+    </footer>
+</body>
+</html>

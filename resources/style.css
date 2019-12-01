@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+
+#logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+#login {
+    float: right;
+    display: inline-block;
+    width: 5%;
+    height: 35px;
+    margin: 35px 2% 0 0;
+    text-transform: uppercase;
+    background-color: #add136;
+    border: hidden;
+    border-radius: 7%;
+    color: white;
+    cursor: pointer;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    height: 100px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0px 0px 30%;
+}
+
+nav li {
+    display: inline;
+    margin: 1px; 
+    padding: 10px;
+    color: #959595;
+    font-family: sans-serif;
+    transition: 0.3s;
+}
+
+nav li:hover {
+    color: #add136;
+    cursor:pointer;
+}
+
+header {
+    background-image: url(banner.png);
+    height: 570px;
+    background-size: cover;
+}
+
+div.content {
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.content h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.content h3 {
+    margin-top: 20px;
+    font-size: 29px;
+    font-weight: 200
+}
+
+.content button {
+    margin-top: 60px;
+    height: 70px;
+    width: 250px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: hidden;
+    border-radius: 5%;
+    background-color: #add136;
+    color: white;   
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.content button:hover {
+    width: 280px;
+    height: 100px;
+    font-size: 25px;
+}
+
+.presentation {
+    margin: 120px auto;
+    width: 80%;
+}
+
+.presentation img {
+    margin: 0 auto;
+    display: block;
+}
+
+.presentation h3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px auto;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: darkslategrey;
+    width: 70%
+}
+
+.presentation p {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+    color: #959595;
+    
+}
+
+.tab {
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+
+.tab button {
+    background-color: inherit;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: darkslategrey;
+    border: none;
+    border-bottom: 3px solid #959595;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    margin:0 auto;
+    width: 350px;
+}
+
+
+.tab button:hover {
+    color: #add136;
+}
+
+
+.tab button.active {
+    border-bottom: 4px solid #add136;
+}
+
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+
+.tabcontent h3 {
+    margin: 40px auto;;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #add136;
+    letter-spacing: 1px;
+}
+
+.tabcontent img {
+    float: left;
+    opacity: 0.8;
+    margin: 50px 30px 0 0;
+    width: 120px;
+    height: 120px;
+}
+
+.tabcontent p {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: darkslategray;
+}
+
+section.tabs {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+
+section.find {
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+div.blue {
+    width: 50%;
+    float: left;
+    height: 330px;
+    background-color: #e2f8ff;
+}
+
+div.blue button {
+    background-color: #26a6d1;
+    width: 150px;
+    height: 45px;
+    text-transform: capitalize;
+    border: hidden;
+    border-radius: 4%;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px 0 0px 60%;
+    color: white;
+    transition: 0.3s;
+}
+
+div.blue button:hover{
+    width: 170px;
+    height: 55px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+div.green {
+    width: 50%;
+    float: right;
+    height: 330px;
+    background-color: #f5f9eb;
+}
+
+div.green button {
+    background-color: #add136;
+    width: 150px;
+    height: 45px;
+    text-transform: capitalize;
+    border: hidden;
+    border-radius: 4%;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px 0 0px 60%;
+    color: white;
+    transition: 0.3s;
+}
+
+div.green button:hover{
+    width: 170px;
+    height: 55px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+section.find div h3 {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: darkslategrey;
+    letter-spacing: 1px;
+    width: 55%;
+    margin: 80px 17% 30px 5%;
+    display: inline-block;
+
+}
+
+section.find div p {
+    font-size: 20px;
+    color: #959595;
+    display: inline-block;
+    width: 55%;
+    margin: 20px 17% 30px 5%;
+
+
+}
+
+section.find div img {
+    margin: 80px auto 0 3%;
+    width: 130px;
+    float: left;
+}
+
+section.ending {
+    margin: 0px auto;
+    width: 100%;
+    background-image: url(background.png);
+    height: 700px;
+    background-size: cover;
+    background-position: center
+}
+
+section.ending h3 {
+    color: #add136;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 8%;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+section.ending p {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #959595;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 40px;
+}
+
+div.words {
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
+
+div.words h4 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #add136;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+div.words p {
+    line-height: normal;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+div.quote {
+    width: 50%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 3%;
+    border: 1px solid #959595;
+    margin: 0 auto;
+}
+
+div p.name {
+    color:darkslategray;
+    margin: 65px 0 0 0;
+    padding: 0;
+    display: inline-block;
+    width: 150px;
+}
+
+div.words img {
+    float: left;
+    margin-left: 26%;
+    margin-top: 20px;
+}
+
+
+footer ul {
+    width: 100%;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 30px;
+    width: 90px;
+    margin: 10px;
+}
+
+#log1 {
+    background-image: url(/resources/logo1.png);
+    background-size: cover;
+}
+
+#log1:hover {
+    background-image: url(logo1colored.png);
+}
+
+#log2 {
+    background-image: url(/resources/logo2.png);
+    background-size: cover;
+}
+
+#log2:hover {
+    background-image: url(logo2colored.png);
+}
+
+#log3 {
+    background-image: url(/resources/logo3.png);
+    background-size: cover;
+}
+
+#log3:hover {
+    background-image: url(logo3colored.png);
+}
+
+#log4 {
+    background-image: url(/resources/logo4.png);
+    background-size: cover;
+}
+
+#log4:hover {
+    background-image: url(logo4colored.png);
+}
+
+
